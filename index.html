@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- HTML5 Doctype -->
+<html lang="en">
+<!-- Sets language to English -->
+
+<head>
+
+    <meta charset="UTF-8">
+    <!-- Character encoding -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Responsiveness -->
+
+    <title>The Library</title>
+    <!-- Browser title -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS file name -->
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Header -->
+        
+        <h1>The Library</h1>
+        <!-- Header text -->
+
+        <p style="font-family:Times New Roman;font-size:18px">For all your informative needs</p>
+        <!-- Catch phrase -->
+
+    </header>
+
+    <nav>
+        <!-- Navigation menu -->
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <!-- Jump to About -->
+
+            <li><a href="#requests">Requests</a></li>
+            <!-- Jump to TakingRequests -->
+
+            <li><a href="#contact">Contact</a></li>
+            <!-- Jump to Contact -->
+        </ul>
+    </nav>
+
+    <!-- Spacer to avoid using aboslute positioning -->
+    <section id="spacer">
+        <h3>space</h3>
+    </section>
+
+    <section id="about">
+
+        <h2>About Us</h2>
+        <!-- About Us Title -->
+
+        <p style="font-family:Times New Roman;font-size:17px">Welcome to The Library. Where all your favorite books are stored digitally for your ease of access.</p>
+        <!-- About Us Paragraph -->
+    </section>
+
+    <section id="requests">
+
+        <h2>Now Taking Requests!</h2>
+        <!-- TakingRequests Title -->
+
+        <p style="font-family:Times New Roman;font-size:17px">We are now taking requests for additions to The Library! Please fill out a contact form and one of our staff will seek out the work you'd like in our database.</p>
+
+        <video width="400" controls>
+            <!-- video embed -->
+
+            <source src="images/bell.mp4" type="video/mp4"> <!-- Openly sourced from https://www.pexels.com/video/close-up-video-of-a-hotel-desk-bell-5378937/ -->
+            <!-- video source -->
+
+        </video>
+    </section>
+
+    <section id="contact">
+        <!-- Contact section -->
+
+        <h2>Contact Us</h2>
+        <!-- title -->
+
+        <form>
+            <label for="name">Name:</label>
+            <!-- name input label -->
+            
+            <input type="text" id="name" name="name" required>
+            <!-- input field -->
+
+            <label for="email">Email:</label>
+            <!-- email input label -->
+
+            <input type="email" id="email" name="email" required>
+            <!-- input field -->
+
+            <label for="work title">Work Title:</label>
+            <!-- input field -->
+
+            <input type="title" id="title" name="title" required>
+
+            <input type="submit" value="Send">
+            <!-- dynamic submit button -->
+
+        </form>
+    </section>
+
+    <footer>
+        <p style="font-family:Times New Roman;font-size:17px">&copy; 2025 The Library. All rights reserved.</p>
+        <!-- footer text -->
+    </footer>
+</body>
+</html>

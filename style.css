@@ -1,0 +1,133 @@
+/* 
+   Body Style
+*/
+
+body {
+    font-family: Arial, sans-serif; /* default font */
+    margin: 0;  /* padding remove */
+    padding: 0; /* padding remove */
+    background-image: url("images/bodyBackground.png"); /* body background image */
+    background-color: #777777; /* background color if image fails */
+}
+
+/* 
+   Header Style
+*/
+
+header {
+    color: white; /* text colour */
+    text-align: left; /* Left alignment */
+    padding-left: 20px; /* text padding */
+    text-shadow: -3px 2px #000000; /* Text Shadow */
+    position: absolute; /* Position */ 
+    top: 0px; /* Keep at top */
+    background-image: url("images/headerBackground.png"); /* Openly sourced from https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg */
+    background-size: cover; /* background sizing */
+    background-color: #777777; /* background color in case image fails*/
+    left: 0; /* header stretch */
+    right: 0; /* header stretch */
+}
+
+/* 
+   Nav Style
+*/
+
+nav ul {
+    list-style: none; /* remove bullets */
+    padding: 0; /* remove padding */
+    text-align: left; /* center nav */
+    padding-left: 20px; /* text padding */
+    background-color: #000000; /* nav background */
+    position: absolute; /* set position */
+    top: 96px; /* top position */
+    left: 0; /* stretch */
+    right: 0; /* stretch */
+}
+
+nav ul li {
+    display: inline; /* horizontal display */
+    margin: 10px; /* spacing */
+}
+
+nav ul li a {
+    color: white; /* text color */
+    text-decoration: none; /* link underline removal */
+    padding: 10px; /* spacing */
+}
+
+nav ul li a:hover {
+    background-color: #777777; /* hover color */
+    text-shadow: -3px 1px black; /* text shadow */
+    border-radius: 5px; /* rounded box */
+}
+
+/* 
+   Body Section Style
+*/
+
+section {
+    padding: 20px; /* padding */
+    margin: 20px; /* padding */
+    background: rgb(233, 233, 233); /* bg colour */
+    border-radius: 10px; /* rounds corners */
+    box-shadow: 0, 0, 10px, 0, black, inset; /* shadow */
+}
+
+/* 
+   Video Style
+*/
+
+video {
+    display: block; /* video displayed in block */
+    margin: 10px auto; /* horizontal centering */
+}
+
+/* 
+   Form Style
+*/
+
+form {
+    display: flex; /* flexbox alignment */
+    flex-direction: column; /* vertical stack */
+    max-width: 300px; /* max width */
+    margin: auto; /* centers horizontally */
+}
+
+/* 
+    Input Style 
+*/
+
+form input[type="text"], form input[type="email"], form input[type="title"] {
+    padding: 10px; /* spacing */
+    margin: 5px 0; /* spacing */
+    border: 1px solid #ccc; /* border */
+    border-radius: 5px; /* corner rounding */
+}
+
+/* 
+    Submit Style
+*/
+
+form input[type="submit"] {
+    background-color: #3d3d3d; /* color */
+    color: white; /* text color */
+    padding: 10px; /* padding */
+    border: none; /* remove border */
+    border-radius: 5px; /* round edges */
+    cursor: pointer; /* change curser when hover */
+}
+
+form input[type="submit"]:hover {
+    background-color: #acacac; /* hover color */
+}
+
+/* 
+   Footer Style
+*/
+
+footer {
+    text-align: center; /* center */
+    padding: 5px; /* padding */
+    background-color: #333; /* background */
+    color: white; /* txt color */
+}
