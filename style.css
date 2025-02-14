@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif; /* default font */
     margin: 0;  /* padding remove */
     padding: 0; /* padding remove */
-    background-image: url("Images/bodyBackground.png"); /* body background image */
+    background-image: url("images/bodyBackground.png"); /* body background image */
     background-color: #777777; /* background color if image fails */
 }
 
